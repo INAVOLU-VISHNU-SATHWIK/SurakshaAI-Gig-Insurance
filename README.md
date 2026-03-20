@@ -150,12 +150,12 @@ npm start
 
 ## 📌 Repository Link
 
-👉[ [GitHub repo link here]](https://github.com/INAVOLU-VISHNU-SATHWIK/SurakshaAI-Gig-Insurance.git)
+👉[ [GitHub repo link ]](https://github.com/INAVOLU-VISHNU-SATHWIK/SurakshaAI-Gig-Insurance.git)
 
 ---
 ## 📌 Live Demo Link
 
-👉[ [Demo link here]](https://suraksha-ai-gig-insurance.vercel.app/)
+👉[ [Demo link ]](https://suraksha-ai-gig-insurance.vercel.app/)
 
 ---
 

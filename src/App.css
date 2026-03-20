@@ -1,0 +1,109 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+.navbar h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar div a {
+  color: #e2e8f0;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar div a:hover {
+  color: #38bdf8;
+}
+
+/* Container (CENTER EVERYTHING) */
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+  text-align: center;        /* text center */
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;            /* center block */
+}
+
+/* Headings */
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  font-size: 18px;
+  color: #cbd5f5;
+  margin-bottom: 30px;
+}
+
+/* Button */
+button {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 20px rgba(56, 189, 248, 0.5);
+}
+
+/* Cards */
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  margin: 15px;
+  border-radius: 16px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Success Message */
+.success {
+  margin-top: 20px;
+  color: #22c55e;
+  font-size: 18px;
+}
